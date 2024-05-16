@@ -14,12 +14,14 @@ import java.time.LocalDateTime;
 public class AuthEntityDto implements Serializable {
     private Long id;
     private LocalDateTime createdAt;
+    private String token;
     private RegisterDto register;
 
     public static AuthEntityDto fromEntity(AuthEntity authEntity) {
         AuthEntityDto dto = new AuthEntityDto();
         dto.setId(authEntity.getId());
         dto.setCreatedAt(authEntity.getCreatedAt());
+        dto.setToken(authEntity.getToken());
         if (authEntity.getRegister() != null) {
             RegisterEntity registerEntity = authEntity.getRegister();
             dto.setRegister(RegisterDto.fromEntityDataRegister(registerEntity));

@@ -6,4 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface RegisterRepository extends JpaRepository<RegisterEntity, Long> {
+    RegisterEntity findRegisterByUsername(String username);
+
+    boolean existsByUsername(String username);
 }

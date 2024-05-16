@@ -14,6 +14,10 @@ public class RegisterServices {
     }
 
     public RegisterDto save(RegisterDto registerDto) {
+
+        if (registerRepository.existsByUsername(registerDto.getUsername())){
+            throw new RuntimeException("Username already exists");
+        }
         RegisterEntity entity = new RegisterEntity();
 
         entity.setUsername(registerDto.getUsername());

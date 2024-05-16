@@ -21,7 +21,10 @@ public class AuthEntity {
     @Column(name = "creadAt")
     private LocalDateTime createdAt;
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "register_id", referencedColumnName = "id")
+    @Column(name = "token")
+    private String token;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "register_id")
     private RegisterEntity register;
 }

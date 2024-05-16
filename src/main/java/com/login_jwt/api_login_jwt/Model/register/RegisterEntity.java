@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @Entity
@@ -21,4 +23,7 @@ public class RegisterEntity {
 
     @Column(name = "password")
     private String password;
+
+    @OneToMany(mappedBy = "register", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<AuthEntity> authEntities;
 }

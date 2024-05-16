@@ -11,6 +11,6 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 3000
 
-COPY --from=build /target/ app.jar
+COPY --from=build /target/api_login_jwt-0.0.1.jar app.jar
 
 ENTRYPOINT ["java", "-jar", "app.jar"]

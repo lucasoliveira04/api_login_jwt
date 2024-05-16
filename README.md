@@ -20,3 +20,24 @@ Esta API permite realizar operações de autenticação e registro de usuários 
     "password": "string"
   }
   ```
+
+- Resposta:
+- `200 OK` - Retorna o token JWT.
+- `401 UNAUTHORIZED` - Se a autenticação falhar.
+### Registro
+- Registro de Usuário
+- Endpoint: `/api/public/register/add/register`
+- Método: `POST`
+- Descrição: Registra um novo usuário no sistema.
+- Corpo da Requisição:
+
+  ~~~json
+    {
+    "username": "string",
+    "password": "string",
+    "email": "string"
+    }
+  ~~~
+
+- Resposta:
+- `200 OK`

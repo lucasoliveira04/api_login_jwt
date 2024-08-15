@@ -1,0 +1,14 @@
+com\login_jwt\api_login_jwt\Model\register\RegisterEntity.class
+com\login_jwt\api_login_jwt\ApiLoginJwtApplication.class
+com\login_jwt\api_login_jwt\Services\mail\MailServices.class
+com\login_jwt\api_login_jwt\Services\jwt\JwtFilter.class
+com\login_jwt\api_login_jwt\controller\RegisterController.class
+com\login_jwt\api_login_jwt\Dto\Register\RegisterDto.class
+com\login_jwt\api_login_jwt\Dto\Auth\AuthEntityDto.class
+com\login_jwt\api_login_jwt\Model\auth\AuthEntity.class
+com\login_jwt\api_login_jwt\Services\auth\AuthServices.class
+com\login_jwt\api_login_jwt\repository\register\RegisterRepository.class
+com\login_jwt\api_login_jwt\security\SecurityConfig.class
+com\login_jwt\api_login_jwt\Services\register\RegisterServices.class
+com\login_jwt\api_login_jwt\controller\AuthController.class
+com\login_jwt\api_login_jwt\repository\auth\AuthRepository.class

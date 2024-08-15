@@ -1,0 +1,14 @@
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Services\jwt\JwtFilter.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\controller\RegisterController.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Dto\Register\RegisterDto.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Services\auth\AuthServices.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Services\mail\MailServices.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Dto\Auth\AuthEntityDto.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\repository\auth\AuthRepository.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\controller\AuthController.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Model\auth\AuthEntity.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\ApiLoginJwtApplication.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Model\register\RegisterEntity.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\security\SecurityConfig.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\repository\register\RegisterRepository.java
+C:\Users\Lucas\Documents\Github\api_login_jwt\src\main\java\com\login_jwt\api_login_jwt\Services\register\RegisterServices.java
